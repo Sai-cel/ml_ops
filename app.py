@@ -1,7 +1,7 @@
-def function(a,b ,c):
+def function(a,b ,c , d):
     a = int(a)
     b= int(b)
     c= int(c)
-    return a+c-b
+    d= int(d)
+    return a+c-b+d
 
-print(function(3,4 , 6))
